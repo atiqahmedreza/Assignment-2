@@ -202,6 +202,56 @@ body{
         padding:20px;
         border-radius:12px;
     }
+
+.featured h2{
+ text-align:center;
+        margin-bottom:30px;
+        font-size: 48px;
+         font-weight:bold;
+}
+    .podcast{
+        display:flex;
+        gap:20px;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .podcast-1{
+        background:#2a1459;
+        width:380px;
+        height:440px;
+        padding:15px;
+        border-radius: 15px;
+        text-align:left;
+    }
+    .video-1{
+        width:345px;
+        height:214px;
+        overflow:hidden;
+        border-radius: 10px;
+    }
+    .podcast-1 h3{
+        font-size: 24px;
+        font-weight: bold;
+        padding:10px;
+    }
+     .podcast-1 p{
+        font-size: 16px;
+        padding:12px;
+     }
+     .time{
+        display:flex;
+        color:#00FF88;
+         width:20px;
+        height:20px;
+        
+        
+     }
+   
+
+    .podcast-1 h3{
+        margin:10px o;
+    }
+    
     
     @media (max-width: 768px) {
   .cards {
