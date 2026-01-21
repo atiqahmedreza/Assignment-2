@@ -243,7 +243,7 @@ body{
         color:#00FF88;
          width:20px;
         height:20px;
-        
+
         
      }
    
@@ -251,8 +251,80 @@ body{
     .podcast-1 h3{
         margin:10px o;
     }
+
+    .host {
+  padding: 40px;
+  text-align: center;
+}
+
+.host-card {
+  background: #2a1459;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.host-card img {
+  border-radius: 50%;
+}
+
+.footer {
+  background-image: url(../assets/footer-bg.png)
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px;
+  color: white;
+  text-align: center;
+}
+
+.footer-content {
+  background: rgba(20, 5, 45, 0.8); 
+  padding: 60px 20px;
+  border-radius: 20px;
+}
+
+.logo {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.logo span {
+  color: #ff3cc7;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.socials a {
+  color: #ddd;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.socials a:hover {
+  color: #fff;
+}
+
+.footer p {
+  font-size: 13px;
+  color: #bbb;
+}
+
     
     
+
+@media (min-width: 576px) {
+  body {
+    font-size: 16px;
+  }
+}
     @media (max-width: 768px) {
   .cards {
     grid-template-columns: 1fr;
@@ -262,5 +334,11 @@ body{
   .wide {
     grid-column: span 1;
     grid-row: span 1;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 18px;
   }
 }
